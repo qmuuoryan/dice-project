@@ -1,0 +1,7 @@
+.topnav{
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a{
+  text-align: center;
+}
