@@ -1,7 +1,9 @@
-.topnav{
-  background-color: black;
-  overflow: hidden;
+.img{
+  float: left;
 }
-.topnav a{
+h1{
   text-align: center;
+}
+#buttton{
+  float: right;
 }
