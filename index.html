@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="CSS/bootstrap.css">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>PIG DICE</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-      <h1> <img src="images/pig.jpg" alt="pig"> PIG <img src="images/dice.jpg" alt="dice"> DICE </h1>
-        <button id="buttton" name="play game!:">play game!</button>
-    </div>
-      <div class="jumbotron">
-        <div class="row">
-          <div class="col-md-6">
-            <form id="player-one">
-              <form group>
-                <label for="player-one-name">player one:</label>
-               <input type="text" name="player one" value="">
-              </form>
-            </form>
 
-          </div>
+<head>
+  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>PIG DICE</title>
+</head>
 
+<body class="container" background="images/pigdice.jpg">
+  <div class="jumbotron">
+    <img src="images/pigdice.jpg" alt="screenshot of my project">
+
+  </div>
+  <div class="jumbotron">
+    <h1> PIG DICE GAME!! </h1>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="well">
+        <div class="playerOne">
+          <p>Player one:</p>
+
+          <button type="button" id='rollOne' value=""> ROLL</button> <button type="button" id="holdOne">HOLD</button><br><br>
+          <p>turn Score:<input type="number" id="turnScore" value=""></input></p><br>
+          <p>o. Score:<input type="number" id="overallScore" value=""></input></p><br>
 
         </div>
-
       </div>
-
     </div>
-  </body>
+    <div class="col-md-6">
+      <div class="well">
+        <div class="playerTwo">
+          <p>Player two:</p>
+
+          <button type="button" id='rollTwo' value=""> ROLL </button> <button type="button" id="holdTwo">HOLD</button><br><br>
+          <p>turn score:<input type="number" id="turnScore2" value=""></input></p><br>
+          <p>o. score:<input type="number" id="overallScore2" value=""></input></p><br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="jumbotron" <h2>RULES: This is a simple dice game where two players have the chance to roll the dice to try and achieve a score of 100.</h2>
+    <ul>
+      <li>When a player rolls a one their turn is over and its time for the next player to play</li>
+      <li>When a player holds its the other players turn to roll and the turns score is added to their score </li>
+      <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+      <li>when a player scores 100 or more they win</li>
+    </ul>
+  </div>
+</body>
+
 </html>
