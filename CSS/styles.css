@@ -1,9 +1,70 @@
-.img{
-  float: left;
+body {
+  text-align: center;
+  font-size: 15px;
+  font-family: monospace;
 }
-h1{
+}
+
+h1 {
   text-align: center;
 }
-#buttton{
+
+#buttton {
   float: right;
+  background-color: green;
+  border-radius: 20px
+}
+
+.jumbotron {
+  background-color: tan;
+  border-radius: 30px;
+}
+
+.well {
+  background-color: tan;
+  border-radius: 30px;
+}
+
+#rollTwo {
+  border-radius: 10px;
+  background-color: tan;
+  border-color: black;
+  font-family: cursive;
+}
+
+#rollOne {
+  border-radius: 10px;
+  background-color: tan;
+  border-color: black;
+  font-family: cursive;
+}
+
+#holdOne {
+  border-radius: 10px;
+  background-color: tan;
+  border-color: black;
+  font-family: cursive;
+}
+
+#holdTwo {
+  border-radius: 10px;
+  background-color: tan;
+  border-color: black;
+  font-family: cursive;
+}
+
+#turnScore {
+  border-radius: 10px;
+}
+
+#turnScore2 {
+  border-radius: 10px;
+}
+
+#overallScore {
+  border-radius: 10px;
+}
+
+#overallScore2 {
+  border-radius: 10px;
 }
